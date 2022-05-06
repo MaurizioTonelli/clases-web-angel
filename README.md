@@ -1,10 +1,6 @@
 # MATERIAL DEL PROGRAMA
 
-===
-
 ## Sesión 1: Fundamentos de HTML y CSS
-
-===
 
 ### Temas vistos
 
@@ -19,7 +15,7 @@
 
 #### CSS Especificidad:
 
-https://blog.ida.cl/desarrollo/entendiendo-la-especificidad-css/#:~:text=Seg%C3%BAn%20developer.mozilla.org%20(,o%20quiz%C3%A1s%20sobre%20alguna%20clase%20%E2%80%9C
+https://blog.ida.cl/desarrollo/entendiendo-la-especificidad-css/#:~:text=Seg%C3%BAn%20developer.mozilla.org%20(,o%20quiz%C3%A1s%20sobre%20alguna%20clase%20%E2%80%9C.
 
 #### CSS Flexbox:
 

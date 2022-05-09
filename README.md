@@ -34,3 +34,20 @@ https://blog.astrodev.mx/mauztonelli00/html-en-5-minutos-c31k8s5mmlf0
 #### CSS EN 5 MINUTOS
 
 https://blog.astrodev.mx/mauztonelli00/css-en-5-minutos-vic2prfwf07s
+
+## Sesión 2: Fundamentos de JavaScript
+
+### Temas vistos
+
+- Variables y tipos de variables
+- Operadores aritméticos
+- Operadores lógicos
+- Operadores de comparación
+- Expresiones lógicas
+- Estructuras de control (if, if-else, if-else if-else, while, for)
+
+### Artículos de repaso
+
+#### JAVASCRIPT EN 5 MINUTOS
+
+https://blog.astrodev.mx/mauztonelli00/java-script-en-5-minutos-ihddr8mh5lu3

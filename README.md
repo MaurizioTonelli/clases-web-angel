@@ -51,3 +51,11 @@ https://blog.astrodev.mx/mauztonelli00/css-en-5-minutos-vic2prfwf07s
 #### JAVASCRIPT EN 5 MINUTOS
 
 https://blog.astrodev.mx/mauztonelli00/java-script-en-5-minutos-ihddr8mh5lu3
+
+## Sesión 3: Fundamentos de JavaScript parte 2
+
+### Temas vistos
+
+- Funciones
+- Diccionarios
+- Listas

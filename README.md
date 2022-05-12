@@ -59,3 +59,17 @@ https://blog.astrodev.mx/mauztonelli00/java-script-en-5-minutos-ihddr8mh5lu3
 - Funciones
 - Diccionarios
 - Listas
+
+## Sesión 4: JavaScript y el DOM
+
+### Temas vistos
+
+- Manipulación de elementos de HTML desde JavaScript
+- Selección de elementos
+- Cambio de clase y texto de un elemento
+- Definición de DOM
+- Ejercicio de DOM
+
+### Artículo de repaso
+
+- Agregar artículo de repaso

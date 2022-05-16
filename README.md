@@ -73,3 +73,10 @@ https://blog.astrodev.mx/mauztonelli00/java-script-en-5-minutos-ihddr8mh5lu3
 ### Artículo de repaso
 
 - Agregar artículo de repaso
+
+## Sesión 5: Ejercicios de Javascript y solución de problemas
+
+### Temas vistos
+
+- Estrategias de solución de problemas al programar
+- Ejercicios de javascript

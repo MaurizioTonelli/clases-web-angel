@@ -80,3 +80,7 @@ https://blog.astrodev.mx/mauztonelli00/java-script-en-5-minutos-ihddr8mh5lu3
 
 - Estrategias de solución de problemas al programar
 - Ejercicios de javascript
+
+## Sesión 6: Manejo de errores en Javascript e introducción a NodeJs
+
+### Temas vistos

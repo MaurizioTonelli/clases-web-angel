@@ -84,3 +84,26 @@ https://blog.astrodev.mx/mauztonelli00/java-script-en-5-minutos-ihddr8mh5lu3
 ## Sesión 6: Manejo de errores en Javascript e introducción a NodeJs
 
 ### Temas vistos
+
+- instalar Node Js
+- para qué sirve Node Js y npm
+- uso del import y de módulos en javascript (intro)
+- crear una aplicación de React
+- estructura de folders de React
+
+### Recursos
+
+ES6 Modules
+https://www.theodinproject.com/lessons/node-path-javascript-es6-modules
+
+Webpack
+https://www.theodinproject.com/lessons/node-path-javascript-webpack
+
+## Sesion 7:
+
+### Temas vistos
+
+- try-catch
+- ejercicios DOM dudas
+- dudas webpack y modules
+- intro a react

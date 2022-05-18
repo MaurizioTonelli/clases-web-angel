@@ -1,0 +1,19 @@
+
+h1 {
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+
+.botones{
+   display: flex;
+   width: 100%;
+
+}
+
+.principal{
+    align-items: center;
+}

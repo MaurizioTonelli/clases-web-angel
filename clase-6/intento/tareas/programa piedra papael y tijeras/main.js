@@ -1,5 +1,5 @@
 let botonPiedra = document.querySelector("#piedra");
-let botonPapel =  document.querySelector("#papel");
+let botonPapel = document.querySelector("#papel");
 let botonTijera = document.querySelector("#tijera");
 
 /*botonPiedra.addEventListener ("clcik", ()=>{
@@ -7,10 +7,20 @@ let botonTijera = document.querySelector("#tijera");
     parrafo.textContent = "hola"
 })*/
 
-botonPiedra.addEventListener("click",()=>{
-    piedraPapelOTijeras("piedra")
-})
+botonPiedra.addEventListener("click", () => {
+  let parrafoEleccionJugador = document.querySelector("#eleccionjugador");
+  let parrafoEleccionComputadora = document.querySelector(
+    "#eleccioncomputadora"
+  );
+  let parrafoGanador = document.querySelector("#ganador");
 
+  let resultado = piedraPapelOTijeras("piedra");
+
+  parrafoEleccionJugador.textContent = "La computadora eligió piedra";
+  parrafoEleccionComputadora.textContent =
+    "El jugador eligió " + resultado.eleccionComputadora;
+  parrafoGanador.textContent = resultado.ganador;
+});
 
 function getRandomInt(min, max) {
   min = Math.ceil(min);
@@ -19,38 +29,37 @@ function getRandomInt(min, max) {
 }
 
 function piedraPapelOTijeras(jugadaHumana) {
-    let numeroAleatorio = getRandomInt(1, 3);
-    let jugadaComputadora;
-  
-    if (numeroAleatorio == 1) {
-      jugadaComputadora = "piedra";
-      let parrafo = document.querySelector("#eleccioncomputadora"); 
-              parrafo.textContent="la computadora eligio piedra";
-    } else if (numeroAleatorio == 2) {
-      jugadaComputadora = "papel";
-    } else if (numeroAleatorio == 3) {
-      jugadaComputadora = "tijeras";
-    }
-  
-    if (jugadaComputadora == jugadaHumana) {
-      return "Empate";
-    }
-    if (jugadaComputadora == "piedra" && jugadaHumana == "papel") {
-      return "Ganaste";
-    }
-    if (jugadaComputadora == "piedra" && jugadaHumana == "tijeras") {
-      return "Perdiste";
-    }
-    if (jugadaComputadora == "papel" && jugadaHumana == "piedra") {
-      return "Empate";
-    }
-    if (jugadaComputadora == "papel" && jugadaHumana == "tijeras") {
-      return "Perdiste";
-    }
-    if (jugadaComputadora == "tijeras" && jugadaHumana == "papel") {
-      return "Ganaste";
-    }
-    if (jugadaComputadora == "tijeras" && jugadaHumana == "piedra") {
-      return "Empate";
-    }
+  let numeroAleatorio = getRandomInt(1, 3);
+  let jugadaComputadora;
+
+  let resultado = {};
+
+  if (numeroAleatorio == 1) {
+    jugadaComputadora = "piedra";
+    resultado.eleccionComputadora = "piedra";
+  } else if (numeroAleatorio == 2) {
+    jugadaComputadora = "papel";
+    resultado.eleccionComputadora = "papel";
+  } else if (numeroAleatorio == 3) {
+    jugadaComputadora = "tijeras";
+    resultado.eleccionComputadora = "tijeras";
   }
+
+  if (jugadaComputadora == jugadaHumana) {
+    resultado.ganador = "Empate";
+  } else if (jugadaComputadora == "piedra" && jugadaHumana == "papel") {
+    resultado.ganador = "Ganaste";
+  } else if (jugadaComputadora == "piedra" && jugadaHumana == "tijeras") {
+    resultado.ganador = "Perdiste";
+  } else if (jugadaComputadora == "papel" && jugadaHumana == "piedra") {
+    resultado.ganador = "Perdiste";
+  } else if (jugadaComputadora == "papel" && jugadaHumana == "tijeras") {
+    resultado.ganador = "Ganaste";
+  } else if (jugadaComputadora == "tijeras" && jugadaHumana == "papel") {
+    resultado.ganador = "Perdiste";
+  } else if (jugadaComputadora == "tijeras" && jugadaHumana == "piedra") {
+    resultado.ganador = "Ganaste";
+  }
+
+  return resultado;
+}

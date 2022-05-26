@@ -103,7 +103,23 @@ https://www.theodinproject.com/lessons/node-path-javascript-webpack
 
 ### Temas vistos
 
-- try-catch
-- ejercicios DOM dudas
-- dudas webpack y modules
-- intro a react
+- dudas de ejercicios del DOM
+
+## Sesion 8:
+
+### Temas vistos
+
+- Terminando los ejercicios de HTML, CSS y Js
+
+## Sesión 9:
+
+- Introducción a React
+- creación de un proyecto de react
+- qué son los componentes
+- import y export
+- JSX y componentes básicos
+- props en los componentes
+
+## Sesión 10:
+
+- Programas dinámicos con React

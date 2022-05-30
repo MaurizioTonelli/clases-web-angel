@@ -1,0 +1,18 @@
+.fruta{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    margin: 10px;
+}
+
+.fruta:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+.fruta > img {
+    max-width: 100px;
+}

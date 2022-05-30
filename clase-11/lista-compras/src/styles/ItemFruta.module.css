@@ -1,0 +1,7 @@
+.itemFruta{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    margin: 5px;
+    width: 600px;
+}

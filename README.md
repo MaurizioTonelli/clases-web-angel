@@ -113,6 +113,8 @@ https://www.theodinproject.com/lessons/node-path-javascript-webpack
 
 ## Sesión 9:
 
+### Temas vistos
+
 - Introducción a React
 - creación de un proyecto de react
 - qué son los componentes
@@ -122,4 +124,20 @@ https://www.theodinproject.com/lessons/node-path-javascript-webpack
 
 ## Sesión 10:
 
+### Temas vistos:
+
 - Programas dinámicos con React
+- onClick y onChange
+- useState en React
+- Qué son los Hooks
+- Ejemplos
+
+## Sesión 11:
+
+### Temas vistos:
+
+- Aplicación de lista de compras con React
+
+## Sesión 12:
+
+### Temas vistos:
